@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ /* Styling for the nav and logo */
+ div nav ul a{
+    float: right;
+    text-indent: 40px;
+    color: #0000ff;
+    text-decoration: none;
+ }
+
+ div nav ul a:hover{
+    color: #ff0000;
+    transition: ease-in 0.5s;
+    text-decoration: underline;
+ }
+
+ #logo{
+    width: 300px;
+ }
+  /*  End of Styling for the nav and logo */
+
+   /* the first layer */
+   #first-layer{
+    background-image: url('images/pic1.jpg.jpg');
+    
+    height: 50vh;
+    background-size: cover;
+   
+    
+   }
+   #first-layer h1{
+    color: red;
+    font: sans-serif, monospace;
+    text-align: center;
+    padding-top: 80px;
+   }
+   #first-layer p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+   }
+   #first-layer button{
+    margin-left: 45vw;
+    background-color: green;
+    width: 80px;
+   }
+   /* styling the second layer*/
+   .f-div{
+    background-image: url('images/ibrahim-rifath-wj6Qz24kwUA-unsplash.jpg');
+    background-color: greenyellow;
+    height: 110vh;
+    
+   
+   
+    background-size: cover;
+   }
+h2{
+    text-align: center;
+}
+ /* styling the span Element*/
+span{
+    color: blue;
+    text-align: center;
+    font: Helvetica;
+    font-size: 15px;
+}
+ /* styling the road layer*/
+ #road{
+    background-image: url('images/jamie-street-JtP_Dqtz6D8-unsplash.jpg');
+    background-image: red;
+    height: 100vh;
+    background-size: cover;
+    
+ }
+
+/* styling the footer */
+   
+    
+.footer{
+    background-color: rgba(0, 0, 0, 0.591);
+   
+}   
+ .footer .row{
+    display: flex;
+    margin: auto;
+    text-indent: 180px;
+   
+ }
+ .footer .row .column{
+    text-decoration: none;
+ }
+ 
+.footer .row .column h3{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.column ul li{
+    list-style-type: none;
+    
+}
+.column ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.column ul li a:hover{
+    color: #ff0000;
+    transition: ease-in-out 0.4s;
+    text-decoration: underline;
+}
+
